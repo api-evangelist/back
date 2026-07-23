@@ -1,8 +1,31 @@
 aid: back
 name: Back
-description: Back is a company surfaced as a portfolio company of point-nine, seedcamp and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Back is a Berlin-based employee experience and internal service platform that
+  gives HR, IT, Finance, and Office teams one place to receive, automate, and
+  resolve employee requests. It brings conversations from Slack, Microsoft Teams,
+  and email into a single shared inbox, answers common questions with a
+  self-service knowledge chatbot, and automates lifecycle journeys such as
+  onboarding, offboarding, and leave with approvals, forms, and integrations.
+  Founded in 2018 and backed by Point Nine and Seedcamp, Back is used by
+  companies including Loom, Netlify, Choco, Pleo, Marley Spoon, and Statista.
+  This profile was surfaced as a VC portfolio company and enriched by the API
+  Evangelist pipeline; Back offers an API for custom integrations on select
+  plans, but publishes no public developer portal, OpenAPI, or reference at time
+  of enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/back/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://assets.website-files.com/5f44adbdbb358d055be26c21/613a22c3241bf1ff8c039d1f_back-og.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,9 +35,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Employee Experience
+- HR
+- Help Desk
+- Internal Support
+- Workflow Automation
+- Knowledge Base
+- Onboarding
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +54,26 @@ maintainers:
 common:
 - type: Website
   url: https://backhq.com
+- type: Product
+  url: https://backhq.com/product
+- type: Pricing
+  url: https://backhq.com/pricing
+- type: Integrations
+  url: https://backhq.com/integrations
+- type: Login
+  url: https://app.back.ee/login
+- type: TermsOfService
+  url: https://backhq.com/terms
+- type: PrivacyPolicy
+  url: https://backhq.com/privacy
+- type: Security
+  url: https://backhq.com/security
+- type: DomainSecurity
+  url: security/back-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/back-vulnerability-disclosure.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
