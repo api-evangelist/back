@@ -53,7 +53,7 @@ tags:
 - Human Resources
 - Help Desk
 - Internal Support
-- Workflow-Automation
+- Workflow Automation
 - Knowledge Base
 - Onboarding
 tags_raw:
@@ -65,6 +65,7 @@ tags_raw:
 - Workflow Automation
 - Knowledge Base
 - Onboarding
+- Workflow-Automation
 apis: []
 maintainers:
 - FN: Kin Lane
